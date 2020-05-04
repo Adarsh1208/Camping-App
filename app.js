@@ -23,10 +23,18 @@ var ServerPort = process.env.PORT || 7050
 
 // seedDb();  //seed the database
     
-mongoose.connect("mongodb://localhost;27017/yelp_camp_V12", {
+mongoose.connect("mongodb+srv://addy:Adarsh123@#@yelpcamp-q4wsy.mongodb.net/test?retryWrites=true&w=majority"
+,{
     useNewUrlParser :true,
     useUnifiedTopology :true
 })
+
+// mongoose.connect("mongodb://localhost/yelp_camp_v10", {
+//     useNewUrlParser : true,
+//     useUnifiedTopology : true 
+// })
+
+//mongodb+srv://addy:Adarsh123@#@yelpcamp-q4wsy.mongodb.net/test?retryWrites=true&w=majority
 
 
 app.use(bodyParser.urlencoded({extended: true}))

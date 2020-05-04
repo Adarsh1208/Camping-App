@@ -1,0 +1,20 @@
+
+.img-thumbnail img {
+    width: 100%;
+}
+
+.img-thumbnail{
+    padding: 0;
+}
+
+.img-thumbnail .caption-full {
+    padding: 9px;
+}
+
+#delete {
+    display: inline;
+}
+
+#delete_comment{
+    display: inline;
+}

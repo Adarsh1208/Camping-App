@@ -23,7 +23,7 @@ var ServerPort = process.env.PORT || 7050
 
 // seedDb();  //seed the database
     
-mongoose.connect("mongodb+srv://addy:Adarsh123@#@yelpcamp-q4wsy.mongodb.net/test?retryWrites=true&w=majority"
+mongoose.connect("mongodb+srv://addy:addy123%40%23@yelpcamp-q4wsy.mongodb.net/test?retryWrites=true&w=majority"
 ,{
     useNewUrlParser :true,
     useUnifiedTopology :true

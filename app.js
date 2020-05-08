@@ -30,8 +30,9 @@ var ServerPort = process.env.PORT || 7050
 // })
 
 
+var url = process.env.DATABASEURL || "mongodb://localhost/yelp_camp_v10"
 
-mongoose.connect(process.env.DATABASEURL, {
+mongoose.connect(url, {
     useNewUrlParser : true,
     useUnifiedTopology : true 
 })
